@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<schema elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/ust/tools/bot/integrator/service/types/" xmlns:ns0="http://xmlns.oracle.com/adf/svc/errors/" xmlns:tns="http://xmlns.oracle.com/ust/tools/bot/integrator/service/types/" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import namespace="http://xmlns.oracle.com/adf/svc/errors/" schemaLocation="ServiceException.xsd"/>
+  <element name="process">
+    <complexType>
+      <sequence>
+        <element name="message" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+  <element name="processResponse">
+    <complexType>
+      <sequence>
+        <element name="result" type="string"/>
+      </sequence>
+    </complexType>
+  </element>
+</schema>

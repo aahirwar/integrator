@@ -1,0 +1,29 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProviderSettings xmlns="http://xmlns.oracle.com/ide/hash">
+   <hash n="dataTypeSettings">
+      <value n="databaseType" v="Oracle Database"/>
+      <value n="databaseVersion" v="12102"/>
+   </hash>
+   <value n="id" v="0d48071f-f08b-494d-9206-a192b460b9e9"/>
+   <value n="name" v="IntegratorDB"/>
+   <hash n="oracle.jdeveloper.offlinedb.model.ProviderDefaultTemplateSettings">
+      <hash n="default-template-ids">
+         <value n="DATABASE LINK" v="N:DATABASE LINK:TEMPLATE_DATABASE_LINK1:SCHEMA:TEMPLATES"/>
+         <value n="FUNCTION" v="N:FUNCTION:TEMPLATE_FUNCTION1:SCHEMA:TEMPLATES"/>
+         <value n="MATERIALIZED VIEW" v="N:MATERIALIZED VIEW:TEMPLATE_MVIEW1:SCHEMA:TEMPLATES"/>
+         <value n="MATERIALIZED VIEW LOG" v="N:MATERIALIZED VIEW LOG:TEMPLATE_TABLE1:SCHEMA:TEMPLATES"/>
+         <value n="PACKAGE" v="N:PACKAGE:TEMPLATE_PACKAGE1:SCHEMA:TEMPLATES"/>
+         <value n="PACKAGE BODY" v="N:PACKAGE BODY:TEMPLATE_PACKAGE1:SCHEMA:TEMPLATES"/>
+         <value n="PROCEDURE" v="N:PROCEDURE:TEMPLATE_PROCEDURE1:SCHEMA:TEMPLATES"/>
+         <value n="SCHEMA" v="TEMPLATES"/>
+         <value n="SEQUENCE" v="N:SEQUENCE:TEMPLATE_SEQUENCE1:SCHEMA:TEMPLATES"/>
+         <value n="SYNONYM" v="N:SYNONYM:TEMPLATE_SYNONYM1:SCHEMA:TEMPLATES"/>
+         <value n="TABLE" v="N:TABLE:TEMPLATE_TABLE1:SCHEMA:TEMPLATES"/>
+         <value n="TABLESPACE" v="N:TABLESPACE:TEMPLATE_TABLESPACE1"/>
+         <value n="TRIGGER" v="N:TRIGGER:TEMPLATE_TRIGGER1:SCHEMA:TEMPLATES"/>
+         <value n="TYPE" v="N:TYPE:TEMPLATE_TYPE1:SCHEMA:TEMPLATES"/>
+         <value n="TYPE BODY" v="N:TYPE BODY:TEMPLATE_TYPE1:SCHEMA:TEMPLATES"/>
+         <value n="VIEW" v="N:VIEW:TEMPLATE_VIEW1:SCHEMA:TEMPLATES"/>
+      </hash>
+   </hash>
+</ProviderSettings>

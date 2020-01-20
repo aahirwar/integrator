@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<tablespace xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>TEMPLATE_TABLESPACE1</name>
+  <properties>
+    <entry>
+      <key>TablespaceType</key>
+      <value class="oracle.javatools.db.Tablespace$TablespaceType">PERMANENT</value>
+    </entry>
+  </properties>
+</tablespace>

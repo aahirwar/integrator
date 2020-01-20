@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE JboProject SYSTEM "jbo_03_01.dtd">
+<!---->
+<JboProject
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="IntegratorClient"
+  Version="12.2.1.12.24"
+  SeparateXMLFiles="true"
+  PackageName="ust.tools.bot.integrator.model">
+  <DesignTime>
+    <Attr Name="_DTExpressionTypeChecking" Value="true"/>
+    <Attr Name="_jbo.TypeMapEntries" Value="OracleApps"/>
+    <Attr Name="_jprName" Value="../../../../../../IntegratorClient.jpr"/>
+    <Attr Name="_NamedConnection" Value="ApplicationDB"/>
+    <Attr Name="_appModuleNames0" Value="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM"/>
+    <Attr Name="_appModuleNames1" Value="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM"/>
+  </DesignTime>
+  <Containee
+    Name="view"
+    PackageName="ust.tools.bot.integrator.client.view"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="am"
+    PackageName="ust.tools.bot.integrator.model.am"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="applicationmodule"
+    PackageName="ust.tools.bot.integrator.model.applicationmodule"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_AM" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="entity"
+    PackageName="ust.tools.bot.integrator.model.entity"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_EO" Value="true"/>
+    </DesignTime>
+  </Containee>
+  <Containee
+    Name="view"
+    PackageName="ust.tools.bot.integrator.model.view"
+    ObjectType="JboPackage">
+    <DesignTime>
+      <Attr Name="_VO" Value="true"/>
+    </DesignTime>
+  </Containee>
+</JboProject>

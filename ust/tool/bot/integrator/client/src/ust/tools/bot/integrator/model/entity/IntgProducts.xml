@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="IntgProducts"
+  Version="12.2.1.12.24"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="INTG_PRODUCTS"
+  AliasName="IntgProducts"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="ProductId"
+    IsNotNull="true"
+    Precision="18"
+    Scale="0"
+    ColumnName="PRODUCT_ID"
+    SQLType="NUMERIC"
+    Type="java.lang.Long"
+    ColumnType="NUMBER"
+    TableName="INTG_PRODUCTS"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="ProductCode"
+    IsNotNull="true"
+    Precision="20"
+    ColumnName="PRODUCT_CODE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_PRODUCTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="20"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="BuildFile"
+    Precision="20"
+    ColumnName="BUILD_FILE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_PRODUCTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="20"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="EnvironmentIds"
+    Precision="180"
+    ColumnName="ENVIRONMENT_IDS"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_PRODUCTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="180"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="IntegratorEmailIds"
+    Precision="80"
+    ColumnName="INTEGRATOR_EMAIL_IDS"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_PRODUCTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="80"/>
+    </DesignTime>
+  </Attribute>
+  <Key
+    Name="IntgProductsPk"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="INTG_PRODUCTS_PK"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="ust.tools.bot.integrator.model.entity.IntgProducts.ProductId"/>
+    </AttrArray>
+  </Key>
+</Entity>

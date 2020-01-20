@@ -1,0 +1,6 @@
+/*
+ * To change this template comment, edit IntegratorDB.TEMPLATES.TEMPLATE_TYPE1
+ */
+CREATE OR REPLACE 
+TYPE BODY TEMPLATE_TYPE1
+/

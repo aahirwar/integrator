@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<sequence xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>TEMPLATE_SEQUENCE1</name>
+  <schema>
+    <name>TEMPLATES</name>
+  </schema>
+</sequence>

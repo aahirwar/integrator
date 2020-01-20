@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<jdevws:WebServiceProxy xmlns:jdevws="http://xmlns.oracle.com/jdeveloper/10130/webserviceproxy">
+   <list n="CHILD_NODES">
+      <url path="IntegratorService_Service.xml"/>
+      <url path="IntegratorService.wsdl"/>
+      <url path="IntegratorService.xsd"/>
+      <url path="ServiceException.wsdl"/>
+      <url path="ServiceException.xsd"/>
+      <url path="sdoJava.xsd"/>
+      <url path="sdoModel.xsd"/>
+      <url path="datagraph.xsd"/>
+      <url path="../../../../../../../../sdo/commonj/DataGraphType.java"/>
+      <url path="types/Process.java"/>
+      <url path="../../../../../../../../sdo/commonj/java/package-info.java"/>
+      <url path="../../../../../adf/svc/errors/ServiceDMLErrorMessage.java"/>
+      <url path="../../../../../../../../sdo/commonj/Property.java"/>
+      <url path="IntegratorService.java"/>
+      <url path="../../../../../../../../sdo/commonj/ModelsType.java"/>
+      <url path="../../../../../adf/svc/errors/ServiceAttrValErrorMessage.java"/>
+      <url path="ServiceException.java"/>
+      <url path="../../../../../../../../sdo/commonj/TextType.java"/>
+      <url path="../../../../../adf/svc/errors/ServiceRowValErrorMessage.java"/>
+      <url path="IntegratorService_Service.java"/>
+      <url path="types/ObjectFactory.java"/>
+      <url path="types/ProcessResponse.java"/>
+      <url path="../../../../../../../../sdo/commonj/java/JavaInfo.java"/>
+      <url path="types/package-info.java"/>
+      <url path="../../../../../../../../sdo/commonj/XSDType.java"/>
+      <url path="IntegratorServiceSoapHttpPortClient.java"/>
+      <url path="../../../../../../../../sdo/commonj/ObjectFactory.java"/>
+      <url path="../../../../../adf/svc/errors/ServiceErrorMessage.java"/>
+      <url path="../../../../../../../../sdo/commonj/Types.java"/>
+      <url path="../../../../../../../../sdo/commonj/BaseDataGraphType.java"/>
+      <url path="../../../../../adf/svc/errors/ObjectFactory.java"/>
+      <url path="../../../../../../../../sdo/commonj/java/ObjectFactory.java"/>
+      <url path="../../../../../../../../sdo/commonj/package-info.java"/>
+      <url path="../../../../../adf/svc/errors/ServiceMessage.java"/>
+      <url path="../../../../../adf/svc/errors/package-info.java"/>
+      <url path="../../../../../../../../sdo/commonj/DataObject.java"/>
+      <url path="../../../../../../../../sdo/commonj/ChangeSummaryType.java"/>
+      <url path="../../../../../../../../sdo/commonj/Type.java"/>
+   </list>
+   <hash n="DATA_MODEL">
+      <value n="ATTACHMENT_ENCODING" v="MIME"/>
+      <list n="LOCAL_FILES"/>
+      <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy"/>
+      <url n="ORACLE_WEBSERVICES_XML" path="IntegratorService_Service.xml"/>
+      <hash n="PROPERTY_GROUPS">
+         <hash n="WSDL_TO_JAVA_PROPERTIES">
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+         </hash>
+      </hash>
+      <value n="PROXY_ASYNC_METHODS" v="FOR_ENABLED"/>
+      <list n="PROXY_CLIENTS">
+         <url path="IntegratorServiceSoapHttpPortClient.java"/>
+      </list>
+      <value n="PROXY_MAPPING_URL"/>
+      <url n="PROXY_ORIGINAL_WSDL_URL" protocol="http" host="slc10eza.us.oracle.com" port="7011" path="/Integrator/IntegratorService" query="WSDL"/>
+      <hash n="PROXY_PORTS">
+         <hash n="IntegratorServiceSoapHttpPort">
+            <value n="ACCESSES_DOC_WRAPPPED" v="true"/>
+            <value n="ACCESSES_RPC_ENCODED" v="false"/>
+            <value n="CLASS_NAME" v="com.oracle.xmlns.ust.tools.bot.integrator.service.IntegratorService"/>
+            <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyPort"/>
+            <value n="NAME" v="IntegratorServiceSoapHttpPort"/>
+            <hash n="OPERATIONS">
+               <hash n="process">
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.ProxyOperation"/>
+                  <hash n="PROPERTY_GROUPS"/>
+               </hash>
+            </hash>
+            <hash n="PROPERTY_GROUPS">
+               <hash n="WS_POLICY">
+                  <value n="addressing"/>
+                  <hash n="GLOBAL_CONFIG_PROPERTIES"/>
+                  <list n="management"/>
+                  <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.policy.PolicyClientModel"/>
+                  <value n="mtom"/>
+                  <hash n="POLICY_OVERRIDE_PROPERTIES"/>
+                  <list n="security">
+                     <string v="oracle/wss_username_token_client_policy"/>
+                  </list>
+                  <list n="wsconfig"/>
+                  <value n="wsrm"/>
+                  <hash n="wss_username_token_client_policy"/>
+               </hash>
+            </hash>
+            <url n="PROXY_ORIGINAL_PORT_ENDPOINT" protocol="http" host="slc10eza.us.oracle.com" port="7011" path="/Integrator/IntegratorService"/>
+         </hash>
+      </hash>
+      <value n="PROXY_SERVICE_NAME" v="IntegratorService"/>
+      <value n="PROXY_SERVICE_NAMESPACE" v="http://xmlns.oracle.com/ust/tools/bot/integrator/service/"/>
+      <url n="PROXY_TARGET_PROJECT" path="../../../../../../../../../IntegratorServiceConnector.jpr"/>
+      <list n="PROXY_WSDL_IMPORT_LIST">
+         <url path="IntegratorService.xsd"/>
+         <url path="ServiceException.wsdl"/>
+         <url path="ServiceException.xsd"/>
+         <url path="sdoJava.xsd"/>
+         <url path="sdoModel.xsd"/>
+         <url path="datagraph.xsd"/>
+      </list>
+      <url n="PROXY_WSDL_URL" path="IntegratorService.wsdl"/>
+      <hash n="REFERENCED_WEBSERVICE">
+         <list n="BD_">
+            <hash>
+               <value n="BOUND_PORT_TYPE" v="{http://xmlns.oracle.com/ust/tools/bot/integrator/service/}IntegratorService"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPBinding"/>
+               <value n="NAME" v="{http://xmlns.oracle.com/ust/tools/bot/integrator/service/}IntegratorServiceSoapHttp"/>
+               <list n="OP_BINDINGS">
+                  <hash>
+                     <value n="BOUND_OPERATION" v="java.lang.String.process.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPOperationBinding"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+            </hash>
+         </list>
+         <list n="BINDING_FILES"/>
+         <value n="GUID" v="24ae9e06-015b-1000-8001-0ab046ef2113"/>
+         <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.proxy.WebServiceProxy$ProxyJavaWebService"/>
+         <list n="PO_">
+            <hash>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.SOAPPort"/>
+               <value n="NAME" v="IntegratorServiceSoapHttpPort"/>
+               <value n="PORT_BINDING_NAME" v="{http://xmlns.oracle.com/ust/tools/bot/integrator/service/}IntegratorServiceSoapHttp"/>
+               <list n="PORT_OPS">
+                  <hash>
+                     <value n="EXPOSED_BD_OPERATION" v="java.lang.String.process.java.lang.String"/>
+                     <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.PortOperation"/>
+                     <hash n="PROPERTY_GROUPS"/>
+                  </hash>
+               </list>
+               <hash n="PROPERTY_GROUPS"/>
+               <url n="URL" protocol="http" host="slc10eza.us.oracle.com" port="7011" path="/Integrator/IntegratorService"/>
+            </hash>
+         </list>
+         <hash n="PROPERTY_GROUPS">
+            <hash n="WSDL_TO_JAVA_PROPERTIES">
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.WSDLToJavaProperties"/>
+            </hash>
+         </hash>
+         <list n="PT_">
+            <hash>
+               <value n="AUTO_SERVICE_INTERFACE"/>
+               <value n="DEFAULT_NAME" v="false"/>
+               <value n="MODEL_CLASS" v="oracle.jdeveloper.webservices.model.java.JavaPortType"/>
+               <value n="NAME" v="{http://xmlns.oracle.com/ust/tools/bot/integrator/service/}IntegratorService"/>
+               <hash n="PROPERTY_GROUPS"/>
+               <value n="PT_CLASS" v="com.oracle.xmlns.ust.tools.bot.integrator.service.IntegratorServiceImpl"/>
+               <value n="PT_SERVICE_INTERFACE" v="com.oracle.xmlns.ust.tools.bot.integrator.service.IntegratorService"/>
+               <value n="PT_TOP_DOWN_GENERATED_SEI_NAME" v="com.oracle.xmlns.ust.tools.bot.integrator.service.IntegratorService"/>
+            </hash>
+         </list>
+         <url n="TARGET_PROJECT" path="../../../../../../../../../IntegratorServiceConnector.jpr"/>
+         <value n="WS_ORIG_GEN_DIRECTION" v="TOP_DOWN"/>
+         <value n="WS_TARGET_NAMESPACE" v="http://xmlns.oracle.com/ust/tools/bot/integrator/service/"/>
+         <value n="WS_URI" v="IntegratorService"/>
+         <url n="WS_WSDL_FILE" path="IntegratorService.wsdl"/>
+      </hash>
+      <value n="SERVICE_ASYNC" v="false"/>
+      <value n="USE_WSDL_LOCATION" v="true"/>
+   </hash>
+</jdevws:WebServiceProxy>

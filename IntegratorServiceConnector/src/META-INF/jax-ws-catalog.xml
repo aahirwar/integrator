@@ -1,0 +1,4 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://slc06ukb.us.oracle.com:7011/Integrator/IntegratorService?WSDL#%7Bhttp%3A%2F%2Fxmlns.oracle.com%2Fust%2Ftools%2Fbot%2Fintegrator%2Fservice%2F%7DIntegratorService"
+          uri="../com/oracle/xmlns/ust/tools/bot/integrator/service/IntegratorService.wsdl"/>
+</catalog>

@@ -1,0 +1,6 @@
+/*
+ * To change this template comment, edit IntegratorDB.TEMPLATES.TEMPLATE_PACKAGE1
+ */
+CREATE OR REPLACE 
+PACKAGE BODY TEMPLATE_PACKAGE1
+/

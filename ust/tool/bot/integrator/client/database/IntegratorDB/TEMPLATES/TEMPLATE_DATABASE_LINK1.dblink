@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<databaseLink xmlns="http://xmlns.oracle.com/jdeveloper/1211/offlinedb">
+  <name>TEMPLATE_DATABASE_LINK1</name>
+  <public>false</public>
+  <schema>
+    <name>TEMPLATES</name>
+  </schema>
+  <shared>false</shared>
+</databaseLink>

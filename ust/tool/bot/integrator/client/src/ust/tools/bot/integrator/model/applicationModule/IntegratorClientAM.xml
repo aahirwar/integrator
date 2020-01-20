@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE AppModule SYSTEM "jbo_03_01.dtd">
+<!---->
+<AppModule
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="IntegratorClientAM"
+  Version="12.2.1.12.24"
+  InheritPersonalization="merge"
+  ClearCacheOnRollback="true"
+  ComponentClass="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAMImpl">
+  <DesignTime>
+    <Attr Name="_isCodegen" Value="true"/>
+  </DesignTime>
+  <ViewUsage
+    Name="IntgDeploymentRequestsVO"
+    ViewObjectName="ust.tools.bot.integrator.model.view.IntgDeploymentRequestsVO"/>
+  <ViewUsage
+    Name="IntgEnvironmentsVO"
+    ViewObjectName="ust.tools.bot.integrator.model.view.IntgEnvironmentsVO"/>
+  <ViewUsage
+    Name="IntgProductsVO"
+    ViewObjectName="ust.tools.bot.integrator.model.view.IntgProductsVO"/>
+</AppModule>

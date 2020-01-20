@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE Entity SYSTEM "jbo_03_01.dtd">
+<!---->
+<Entity
+  xmlns="http://xmlns.oracle.com/bc4j"
+  Name="IntgEnvironments"
+  Version="12.2.1.9.14"
+  InheritPersonalization="merge"
+  DBObjectType="table"
+  DBObjectName="INTG_ENVIRONMENTS"
+  AliasName="IntgEnvironments"
+  BindingStyle="OracleName">
+  <Attribute
+    Name="EnvironmentId"
+    IsNotNull="true"
+    Precision="18"
+    Scale="0"
+    ColumnName="ENVIRONMENT_ID"
+    SQLType="NUMERIC"
+    Type="java.lang.Long"
+    ColumnType="NUMBER"
+    TableName="INTG_ENVIRONMENTS"
+    PrimaryKey="true"/>
+  <Attribute
+    Name="EnvironmentName"
+    IsNotNull="true"
+    Precision="120"
+    ColumnName="ENVIRONMENT_NAME"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_ENVIRONMENTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="120"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="EnvironmentType"
+    Precision="20"
+    ColumnName="ENVIRONMENT_TYPE"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_ENVIRONMENTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="20"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="AdeBranch"
+    Precision="120"
+    ColumnName="ADE_BRANCH"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_ENVIRONMENTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="120"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="WindowHours"
+    Precision="60"
+    ColumnName="WINDOW_HOURS"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_ENVIRONMENTS">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="60"/>
+    </DesignTime>
+  </Attribute>
+  <Attribute
+    Name="BuildFlag"
+    Precision="1"
+    ColumnName="BUILD_FLAG"
+    SQLType="VARCHAR"
+    Type="java.lang.String"
+    ColumnType="VARCHAR2"
+    TableName="INTG_ENVIRONMENTS"
+    TypeValueMapPropertySet="oracle.jbo.valuemaps.BooleanYNPropertySet">
+    <DesignTime>
+      <Attr Name="_DisplaySize" Value="1"/>
+    </DesignTime>
+  </Attribute>
+  <Key
+    Name="IntgEnvironmentsPk"
+    PrimaryKey="true">
+    <DesignTime>
+      <Attr Name="_DBObjectName" Value="INTG_ENVIRONMENTS_PK"/>
+    </DesignTime>
+    <AttrArray Name="Attributes">
+      <Item Value="ust.tools.bot.integrator.model.entity.IntgEnvironments.EnvironmentId"/>
+    </AttrArray>
+  </Key>
+</Entity>

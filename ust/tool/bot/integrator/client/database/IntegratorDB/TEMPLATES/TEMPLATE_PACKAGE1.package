@@ -1,0 +1,10 @@
+/*
+ * To change this template comment, edit IntegratorDB.TEMPLATES.TEMPLATE_PACKAGE1
+ */
+CREATE OR REPLACE 
+PACKAGE TEMPLATE_PACKAGE1 AS 
+
+  /* TODO enter package declarations (types, exceptions, methods etc) here */ 
+
+END TEMPLATE_PACKAGE1;
+/

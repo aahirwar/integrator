@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!---->
+<BC4JConfig version="11.1" xmlns="http://xmlns.oracle.com/bc4j/configuration">
+   <AppModuleConfigBag ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM">
+      <AppModuleConfig name="IntegratorAMLocal" DeployPlatform="LOCAL" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory"
+                       ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM"
+                       jbo.project="ust.tools.bot.integrator.model.IntegratorClient"
+                       password="fusion">
+         <Database jbo.TypeMapEntries="OracleApps" JDBCDataSource="java:comp/env/jdbc/ApplicationDBDS"/>
+         <Security AppModuleJndiName="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM"
+                   java.naming.security.principal="fusion" java.naming.security.credentials="fusion"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="IntegratorAMShared" DeployPlatform="LOCAL" java.naming.factory.initial="oracle.jbo.common.JboInitialContextFactory"
+                       ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM"
+                       jbo.project="ust.tools.bot.integrator.model.IntegratorClient">
+         <AM-Pooling jbo.ampool.isuseexclusive="false" jbo.ampool.maxpoolsize="1"/>
+         <Database JDBCDataSource="java:comp/env/jdbc/ApplicationDBDS" jbo.TypeMapEntries="OracleApps"/>
+         <Security AppModuleJndiName="ust.tools.bot.integrator.model.applicationModule.IntegratorClientAM"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+   <AppModuleConfigBag ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM">
+      <AppModuleConfig name="IntegratorServiceAMLocal" jbo.project="ust.tools.bot.integrator.model.IntegratorClient"
+                       ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM"
+                       DeployPlatform="LOCAL" JDBCName="ApplicationDB">
+         <Database jbo.TypeMapEntries="OracleApps"/>
+         <Security AppModuleJndiName="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM"/>
+      </AppModuleConfig>
+      <AppModuleConfig name="IntegratorServiceAMShared" jbo.project="ust.tools.bot.integrator.model.IntegratorClient"
+                       ApplicationName="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM"
+                       DeployPlatform="LOCAL">
+         <AM-Pooling jbo.ampool.maxpoolsize="1" jbo.ampool.isuseexclusive="false"/>
+         <Database jbo.TypeMapEntries="OracleApps" JDBCDataSource="java:comp/env/jdbc/ApplicationDBDS"/>
+         <Security AppModuleJndiName="ust.tools.bot.integrator.model.applicationModule.IntegratorServiceAM"/>
+      </AppModuleConfig>
+   </AppModuleConfigBag>
+</BC4JConfig>

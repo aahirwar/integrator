@@ -1,0 +1,7 @@
+/*
+ * To change this template comment, edit IntegratorDB.TEMPLATES.TEMPLATE_TYPE1
+ */
+CREATE OR REPLACE TYPE TEMPLATE_TYPE1 AS OBJECT 
+( /* TODO enter attribute and method declarations here */ 
+)
+/
